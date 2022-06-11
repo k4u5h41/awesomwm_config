@@ -319,6 +319,11 @@ globalkeys = gears.table.join(
     awful.key({ modkey },            "b",     function ()
     awful.util.spawn("firefox") end,
               {description = "launch firefox", group = "launcher"}),
+    
+    -- Chromium
+    awful.key({ modkey },            "b",     function ()
+    awful.util.spawn("chromium") end,
+              {description = "launch chromium", group = "launcher"}),
 
     -- Cherrytree
     awful.key({ modkey },            "a",     function ()
