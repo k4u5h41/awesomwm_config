@@ -9,4 +9,8 @@ mkdir .config/awesome
 ```
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
 ```
+```
+git clone
+```
+
 
