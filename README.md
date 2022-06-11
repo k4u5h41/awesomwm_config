@@ -1,7 +1,7 @@
 # awesomwm_config
 
 ```
-paru -S volumeicon flameshot picom nitrogen dmenu rofi
+paru -S volumeicon firefox chromium flameshot picom nitrogen dmenu rofi nautilus
 ```
 ```
 mkdir .config/awesome
@@ -17,4 +17,11 @@ cd awesomwm_config
 ```
 ```
 mv rc.lua ~/.config/awesome/
+```
+
+```
+ctrl + b =  Firefox
+ctrl + n =  Chromium
+ctrl + d =  Nautilus
+ctrl + r =  dmenu
 ```
