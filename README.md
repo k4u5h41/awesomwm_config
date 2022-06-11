@@ -10,7 +10,11 @@ mkdir .config/awesome
 cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
 ```
 ```
-git clone
+git clone https://github.com/k4u5h41/awesomwm_config.git
 ```
-
-
+```
+cd awesomwm_config
+```
+```
+mv rc.lua ~/.config/awesome/
+```
